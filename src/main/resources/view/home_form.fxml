@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="376.0" prefWidth="550.0" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.HomeFormController">
+   <children>
+      <JFXButton layoutX="350.0" layoutY="103.0" onAction="#btnOpenAddCustomerOnAction" prefHeight="39.0" prefWidth="158.0" text="Add Customer" />
+      <JFXButton layoutX="350.0" layoutY="159.0" onAction="#btnOpenManageCustomerOnAction" prefHeight="39.0" prefWidth="158.0" text="Manage Customer" />
+      <JFXButton layoutX="350.0" layoutY="213.0" onAction="#btnOpenViewCustomersOnAction" prefHeight="39.0" prefWidth="158.0" text="View Customers " />
+      <JFXButton layoutX="390.0" layoutY="322.0" onAction="#btnExitOnAction" prefHeight="39.0" prefWidth="77.0" text="Exit" />
+      <Label alignment="CENTER" layoutX="327.0" layoutY="46.0" prefHeight="26.0" prefWidth="203.0" text="ThogaKade - Customers">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
