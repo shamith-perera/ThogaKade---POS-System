@@ -8,26 +8,49 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="405.0" prefWidth="520.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddCustomerFormController">
+<AnchorPane prefHeight="431.0" prefWidth="520.0" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddCustomerFormController">
    <children>
       <Label alignment="CENTER" layoutX="134.0" layoutY="14.0" prefHeight="40.0" prefWidth="234.0" text="Add Customer">
          <font>
             <Font name="System Bold" size="28.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" layoutX="103.0" layoutY="66.0" prefHeight="18.0" prefWidth="29.0" text="ID" />
-      <JFXTextField fx:id="txtId" editable="false" layoutX="110.0" layoutY="84.0" prefHeight="26.0" prefWidth="116.0" />
-      <Label alignment="CENTER" layoutX="103.0" layoutY="137.0" prefHeight="18.0" prefWidth="29.0" text="Title" />
-      <Label alignment="CENTER" layoutX="251.0" layoutY="137.0" prefHeight="18.0" prefWidth="56.0" text="Name" />
-      <JFXComboBox fx:id="cmbTitle" layoutX="103.0" layoutY="167.0" prefHeight="26.0" prefWidth="116.0" />
-      <JFXTextField fx:id="txtName" layoutX="251.0" layoutY="167.0" prefHeight="26.0" prefWidth="190.0" />
-      <Label alignment="CENTER" layoutX="105.0" layoutY="224.0" prefHeight="18.0" prefWidth="56.0" text="Address" />
-      <JFXTextField fx:id="txtAddress" layoutX="95.0" layoutY="249.0" prefHeight="26.0" prefWidth="136.0" />
-      <Label alignment="CENTER" layoutX="251.0" layoutY="224.0" prefHeight="18.0" prefWidth="66.0" text="Contact" />
-      <JFXTextField fx:id="txtContact" layoutX="251.0" layoutY="249.0" prefHeight="26.0" prefWidth="190.0" />
-      <Label alignment="CENTER" layoutX="89.0" layoutY="297.0" prefHeight="18.0" prefWidth="87.0" text="Date of Birth" />
-      <DatePicker fx:id="dateDOB" layoutX="95.0" layoutY="323.0" prefHeight="26.0" prefWidth="146.0" />
-      <JFXButton layoutX="369.0" layoutY="337.0" onAction="#btnAddCustomerOnAction" prefHeight="26.0" prefWidth="81.0" text="Add " />
+      <Label alignment="CENTER" layoutX="95.0" layoutY="65.0" prefHeight="18.0" prefWidth="29.0" text="ID :">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <JFXTextField fx:id="txtId" editable="false" focusTraversable="false" layoutX="95.0" layoutY="84.0" prefHeight="26.0" prefWidth="116.0" style="-fx-background-color: #D1E9F6;">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></JFXTextField>
+      <Label alignment="CENTER" layoutX="87.0" layoutY="137.0" prefHeight="18.0" prefWidth="45.0" text="Title :">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="241.0" layoutY="137.0" prefHeight="18.0" prefWidth="56.0" text="Name :">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <JFXComboBox fx:id="cmbTitle" layoutX="95.0" layoutY="167.0" prefHeight="26.0" prefWidth="116.0" style="-fx-background-color: #D1E9F6;" />
+      <JFXTextField fx:id="txtName" layoutX="251.0" layoutY="167.0" prefHeight="26.0" prefWidth="190.0" style="-fx-background-color: #D1E9F6;" />
+      <Label alignment="CENTER" layoutX="90.0" layoutY="224.0" prefHeight="18.0" prefWidth="56.0" text="Address :">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <JFXTextField fx:id="txtAddress" layoutX="95.0" layoutY="249.0" prefHeight="26.0" prefWidth="198.0" style="-fx-background-color: #D1E9F6;" />
+      <Label alignment="CENTER" layoutX="307.0" layoutY="224.0" prefHeight="18.0" prefWidth="66.0" text="Contact :">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <JFXTextField fx:id="txtContact" layoutX="316.0" layoutY="249.0" prefHeight="26.0" prefWidth="125.0" style="-fx-background-color: #D1E9F6;" />
+      <Label alignment="CENTER" layoutX="89.0" layoutY="297.0" prefHeight="18.0" prefWidth="87.0" text="Date of Birth :">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <DatePicker fx:id="dateDOB" layoutX="95.0" layoutY="323.0" prefHeight="26.0" prefWidth="146.0" style="-fx-background-color: #D1E9F6;" />
+      <JFXButton layoutX="368.0" layoutY="376.0" onAction="#btnAddCustomerOnAction" prefHeight="26.0" prefWidth="81.0" style="-fx-background-color: #005B41;" text="Add " textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></JFXButton>
    </children>
 </AnchorPane>
