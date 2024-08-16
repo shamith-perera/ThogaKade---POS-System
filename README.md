@@ -1,1 +1,1 @@
-run Main.java file to run the program
+To Start Application run - /src/main/java/Main
