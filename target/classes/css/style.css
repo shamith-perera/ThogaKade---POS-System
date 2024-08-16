@@ -1,0 +1,12 @@
+#txtId {
+     -fx-text-fill: red;
+}
+
+.table-cell {
+    -fx-alignment: CENTER;
+}
+
+
+.table-column-header {
+    -fx-alignment: CENTER;
+}
